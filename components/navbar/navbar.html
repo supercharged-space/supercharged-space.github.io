@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>navbar</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <div class="navigation">
+      <ul>
+        <a href="index.html">
+          <div class="logocontainer">
+              <span class="icon logoicon"><img src="images/logo.png" alt="logo"></i></span>
+          </div>
+          <span class="logotitle">Super</span>
+          <span class="logotitle">Charged</span>
+        </a>
+        <div class="spacer"></div>
+        <li>
+          <a href="#">
+            <div class="container">
+                <span class="icon networkicon"><img src="images/home.png" alt="home"></i></span>
+            </div>
+            <span class="title">Home</span>
+          </a>
+        </li>
+        <div class="spacer-small"></div>
+        <li>
+          <a href="#">
+            <div class="container">
+                <span class="icon networkicon"><img src="images/sessions.png" alt="sessions"></i></span>
+            </div>
+            <span class="title">Sessions</span>
+          </a>
+        </li>
+        <div class="spacer-small"></div>
+        <li>
+          <a href="#">
+            <div class="container">
+                <span class="icon networkicon"><img src="images/message.png" alt="message"></i></span>
+            </div>
+            <span class="title">Chat</span>
+          </a>
+        </li>
+        <div class="spacer-small"></div>
+        <li>
+          <a href="#">
+            <div class="container">
+                <span class="icon networkicon"><img src="images/calendar.png" alt="calendar"></i></span>
+            </div>
+            <span class="title">Discover</span>
+          </a>
+        </li>
+        <div class="spacer-small"></div>
+        <li>
+          <a href="../network/network.html">
+            <div class="container">
+                <span class="icon networkicon"><img src="images/network.png" alt="network"></i></span>
+            </div>
+            <span class="title">Network</span>
+          </a>
+        </li>
+        <div class="spacer"></div>
+        <li>
+          <a href="#">
+            <div class="profilecontainer">
+                <span class="icon profileicon"><img src="images/profile.png" alt="profile"></i></span>
+            </div>
+            <span class="profiletitle">Profile</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="toggle" onclick="toggleMenu()"></div>
+    <script type="text/javascript">
+    function toggleMenu(){
+        let navigation = document.querySelector('.navigation');
+        let toggle = document.querySelector('.toggle');
+        navigation.classList.toggle('active');
+        toggle.classList.toggle('active');
+    }
+    </script>
+  </body>
+</html>
