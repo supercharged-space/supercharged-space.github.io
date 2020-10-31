@@ -276,7 +276,7 @@ body {
         </li>
         <div class="spacer"></div>
         <li>
-          <a href="#">
+          <a href="profile.html">
             <div class="profilecontainer">
                 <span class="icon profileicon"><img src="images/profile.png" alt="profile"></i></span>
             </div>

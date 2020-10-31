@@ -1,0 +1,280 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: none;
+}
+.profilecard {
+  position: absolute;
+  top: 5%;
+  left: 20%;
+}
+.cardborder {
+  width: 682px;
+  height: 770px;
+  background: rgba(255, 255, 255, 1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: 1px solid rgba(215, 209, 255, 1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.givetitle {
+  width: 177px;
+  color: rgba(163, 148, 252, 1);
+  position: absolute;
+  top: 672px;
+  left: 246px;
+  font-weight: Bold;
+  font-size: 20px;
+  text-align: left;
+}
+.givetext {
+  width: 490px;
+  color: rgba(62, 60, 60, 1);
+  position: absolute;
+  top: 699px;
+  left: 108px;
+  font-weight: Regular;
+  font-size: 15px;
+  text-align: left;
+  line-height: 20px;
+}
+.asktext {
+  width: 506px;
+  color: rgba(63, 60, 60, 1);
+  position: absolute;
+  top: 626px;
+  left: 108px;
+  font-weight: Regular;
+  font-size: 15px;
+  text-align: left;
+  line-height: 20px;
+}
+.InterestsTitle {
+  width: 92px;
+  color: rgba(178, 175, 175, 1);
+  position: absolute;
+  top: 485px;
+  left: 85px;
+  font-weight: Bold;
+  font-size: 20px;
+  text-align: left;
+}
+.asktitle {
+  width: 240px;
+  color: rgba(163, 148, 252, 1);
+  position: absolute;
+  top: 597px;
+  left: 221px;
+  font-weight: Bold;
+  font-size: 20px;
+  text-align: left;
+}
+.IntroTitle {
+  width: 51px;
+  color: rgba(178, 175, 175, 1);
+  position: absolute;
+  top: 360px;
+  left: 85px;
+  font-weight: Bold;
+  font-size: 20px;
+  text-align: left;
+}
+.Headline {
+  width: 240px;
+  color: rgba(178, 175, 175, 1);
+  position: absolute;
+  top: 226px;
+  left: 221px;
+  font-weight: Medium;
+  font-size: 22px;
+  text-align: left;
+}
+.Name {
+  width: 248px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 187px;
+  left: 287px;
+  font-weight: Medium;
+  font-size: 25px;
+  text-align: left;
+}
+.socialmedia1 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 270px;
+  left: 246px;
+}
+.socialmedia1 img {
+  width: 50%;
+  height: auto;
+}
+.socialmedia2 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 270px;
+  left: 316px;
+}
+.socialmedia2 img {
+  width: 50%;
+  height: auto;
+}
+.socialmedia3 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 270px;
+  left: 386px;
+}
+.socialmedia3 img {
+  width: 50%;
+  height: auto;
+}
+.bio {
+  width: 477px;
+  color: rgba(62, 60, 60, 1);
+  position: absolute;
+  top: 362px;
+  left: 168px;
+  font-weight: Regular;
+  font-size: 15px;
+  text-align: left;
+  line-height: 20px;
+}
+.lightbluebox1 {
+  width: 145px;
+  height: 32px;
+  background: rgba(175, 231, 255, 1);
+  position: absolute;
+  top: 485px;
+  left: 210px;
+  border-radius: 10px;
+}
+.tag1 {
+  width: 140px;
+  color: rgba(95, 141, 255, 1);
+  position: absolute;
+  top: 490px;
+  left: 221px;
+  font-weight: Bold;
+  font-size: 18px;
+  text-align: left;
+}
+.lightbluebox2 {
+  width: 165px;
+  height: 32px;
+  background: rgba(175, 231, 255, 1);
+  position: absolute;
+  top: 485px;
+  left: 384px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.tag2 {
+  width: 164px;
+  color: rgba(95, 141, 255, 1);
+  position: absolute;
+  top: 490px;
+  left: 395px;
+  font-weight: Bold;
+  font-size: 18px;
+  text-align: left;
+}
+.lightbluebox3 {
+  width: 128px;
+  height: 32px;
+  background: rgba(175, 231, 255, 1);
+  position: absolute;
+  top: 532px;
+  left: 210px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.tag3 {
+  width: 122px;
+  color: rgba(95, 141, 255, 1);
+  position: absolute;
+  top: 537px;
+  left: 221px;
+  font-weight: Bold;
+  font-size: 18px;
+  text-align: left;
+}
+.lightbluebox4 {
+  width: 96px;
+  height: 32px;
+  background: rgba(175, 231, 255, 1);
+  position: absolute;
+  top: 532px;
+  left: 366px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.tag4 {
+  width: 83px;
+  color: rgba(95, 141, 255, 1);
+  position: absolute;
+  top: 537px;
+  left: 378px;
+  font-weight: Bold;
+  font-size: 18px;
+  text-align: left;
+}
+.lightbluebox5 {
+  width: 70px;
+  height: 32px;
+  background: rgba(175, 231, 255, 1);
+  position: absolute;
+  top: 532px;
+  left: 482px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.tag5 {
+  width: 54px;
+  color: rgba(95, 141, 255, 1);
+  position: absolute;
+  top: 537px;
+  left: 494px;
+  font-weight: Bold;
+  font-size: 18px;
+  text-align: left;
+}
+.editcontainer {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  opacity: 1;
+  top: 20px;
+  left: 600px;
+}
+.editcontainer img {
+  width: 70%;
+  height: auto;
+}
+.editicon {
+  filter: invert(55%) sepia(0%) saturate(0%) hue-rotate(204deg) brightness(92%)
+    contrast(86%);
+}
+.profilecontainer2 {
+  width: 135px;
+  height: 135px;
+  opacity: 1;
+  position: absolute;
+  top: 35px;
+  left: 274px;
+}
+.profilecontainer2 img {
+  width: 100%;
+  height: auto;
+}
