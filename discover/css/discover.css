@@ -1,0 +1,567 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Ubuntu", sans-serif;
+  text-decoration: none;
+}
+.discoverevents {
+  width: 100%;
+  height: 613px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.Header2 {
+  width: 481px;
+  color: rgba(32, 55, 255, 1);
+  position: absolute;
+  top: 385px;
+  left: 183px;
+  font-weight: Medium;
+  font-size: 25px;
+  text-align: left;
+}
+.Header1 {
+  width: 398px;
+  color: rgba(87, 38, 227, 1);
+  position: absolute;
+  top: 77px;
+  left: 511px;
+  font-weight: Medium;
+  font-size: 25px;
+  text-align: center;
+}
+.greyboxcontainer {
+  width: 223px;
+  height: 201px;
+  position: absolute;
+  top: 130px;
+  left: 1079px;
+}
+.greybox {
+  width: 223px;
+  height: 201px;
+  background: rgba(229, 229, 229, 1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 27px;
+}
+.event0text {
+  width: 175px;
+  color: rgba(62, 60, 60, 1);
+  position: absolute;
+  top: 29px;
+  left: 33px;
+  font-weight: Medium;
+  font-size: 20px;
+  text-align: left;
+}
+.addcontainer {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 220px;
+  left: 1153px;
+}
+.addcontainer img {
+  width: 70%;
+  height: auto;
+}
+.addicon {
+  filter: invert(55%) sepia(0%) saturate(0%) hue-rotate(204deg) brightness(92%)
+    contrast(86%);
+}
+.lightblueboxcontainer {
+  width: 223px;
+  height: 201px;
+  position: absolute;
+  top: 131px;
+  left: 782px;
+}
+.lightbluebox {
+  width: 223px;
+  height: 201px;
+  background: rgba(175, 231, 255, 1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 27px;
+}
+.event2text {
+  width: 151px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 91px;
+  left: 30px;
+  font-weight: Medium;
+  font-size: 23px;
+  text-align: center;
+}
+.event2-datetime {
+  width: 132px;
+  color: rgba(130, 130, 130, 1);
+  position: absolute;
+  top: 130px;
+  left: 30px;
+  font-weight: Regular;
+  font-size: 20px;
+  text-align: left;
+}
+.user2container {
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  top: 146px;
+  left: 841px;
+}
+.user2container img {
+  width: 100%;
+  height: auto;
+}
+.user3container {
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  top: 146px;
+  left: 878px;
+}
+.user3container img {
+  width: 100%;
+  height: auto;
+}
+.user4container {
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  top: 146px;
+  left: 812px;
+}
+.user4container img {
+  width: 100%;
+  height: auto;
+}
+.event2-attendees {
+  width: 67px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 32px;
+  left: 152px;
+  font-weight: Regular;
+  font-size: 10px;
+  text-align: left;
+}
+.event2-rsvpbutton {
+  width: 80px;
+  height: 36px;
+  background: rgba(231, 252, 255, 1);
+  opacity: 1;
+  position: absolute;
+  top: 157px;
+  left: 139px;
+  border-radius: 27px;
+  overflow: hidden;
+}
+.event2-rsvp {
+  width: 58px;
+  color: rgba(130, 130, 130, 1);
+  position: absolute;
+  top: 167px;
+  left: 152px;
+  font-family: Ubuntu;
+  font-size: 15px;
+  text-align: left;
+}
+.lightpurpleboxcontainer {
+  width: 241px;
+  height: 201px;
+  position: absolute;
+  top: 131px;
+  left: 511px;
+}
+.lightpurplebox {
+  width: 223px;
+  height: 201px;
+  background: rgba(238, 230, 255, 1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 27px;
+  overflow: hidden;
+}
+.user2container-1 {
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  top: 146px;
+  left: 561px;
+}
+.user2container-1 img {
+  width: 100%;
+  height: auto;
+}
+.user3container-1 {
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  top: 146px;
+  left: 598px;
+}
+.user3container-1 img {
+  width: 100%;
+  height: auto;
+}
+.user1container {
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  top: 146px;
+  left: 527px;
+}
+.user1container img {
+  width: 100%;
+  height: auto;
+}
+.event1-datetime {
+  width: 132px;
+  color: rgba(130, 130, 130, 1);
+  position: absolute;
+  top: 130px;
+  left: 21px;
+  font-weight: Regular;
+  font-size: 20px;
+  text-align: left;
+}
+.event1text {
+  width: 220px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 81px;
+  left: 21px;
+  font-weight: Medium;
+  font-size: 23px;
+  text-align: left;
+}
+.event1-attendees {
+  width: 67px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 31px;
+  left: 143px;
+  font-family: Ubuntu;
+  font-weight: Regular;
+  font-size: 10px;
+  text-align: left;
+}
+.event1-rsvpbutton {
+  width: 80px;
+  height: 36px;
+  background: rgba(231, 252, 255, 1);
+  position: absolute;
+  top: 155px;
+  left: 136px;
+  border-radius: 27px;
+}
+.event1-rsvp {
+  width: 58px;
+  color: rgba(130, 130, 130, 1);
+  position: absolute;
+  top: 165px;
+  left: 149px;
+  font-weight: Regular;
+  font-size: 15px;
+  opacity: 1;
+  text-align: left;
+}
+.event3container {
+  width: 241px;
+  height: 201px;
+  position: absolute;
+  top: 454px;
+  left: 185px;
+}
+.event3box {
+  width: 223px;
+  height: 201px;
+  background: rgba(107, 207, 250, 1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 27px;
+}
+.event3-datetime {
+  width: 132px;
+  color: rgba(130, 130, 130, 1);
+  position: absolute;
+  top: 130px;
+  left: 21px;
+  font-weight: Regular;
+  font-size: 20px;
+  text-align: left;
+}
+.event3text {
+  width: 220px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 69px;
+  left: 21px;
+  font-weight: Medium;
+  font-size: 23px;
+  text-align: left;
+}
+.event3-rsvpbutton {
+  width: 80px;
+  height: 36px;
+  background: rgba(87, 38, 227, 1);
+  position: absolute;
+  top: 155px;
+  left: 136px;
+  border-radius: 27px;
+}
+.event3-attendees {
+  width: 67px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 28px;
+  left: 21px;
+  font-weight: Regular;
+  font-size: 10px;
+  text-align: left;
+}
+.event3-rsvp {
+  width: 37px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 162px;
+  left: 158px;
+  font-weight: Regular;
+  font-size: 15px;
+  text-align: left;
+}
+.event4container {
+  width: 241px;
+  height: 201px;
+  position: absolute;
+  top: 457px;
+  left: 493px;
+}
+.event4box {
+  width: 223px;
+  height: 201px;
+  background: rgba(175, 255, 226, 1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 27px;
+}
+.event4-datetime {
+  width: 132px;
+  color: rgba(130, 130, 130, 1);
+  position: absolute;
+  top: 130px;
+  left: 21px;
+  font-weight: Regular;
+  font-size: 20px;
+  text-align: left;
+}
+.event4text {
+  width: 220px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 69px;
+  left: 21px;
+  font-weight: Medium;
+  font-size: 23px;
+  text-align: left;
+}
+.event4-rsvpbutton {
+  width: 80px;
+  height: 36px;
+  background: rgba(87, 38, 227, 1);
+  opacity: 1;
+  position: absolute;
+  top: 155px;
+  left: 136px;
+  border-radius: 27px;
+  overflow: hidden;
+}
+.event4-attendees {
+  width: 67px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 28px;
+  left: 21px;
+  font-weight: Regular;
+  font-size: 10px;
+  text-align: left;
+}
+.event4-rsvp {
+  width: 37px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 162px;
+  left: 158px;
+  font-weight: Regular;
+  font-size: 15px;
+  text-align: left;
+}
+.event5container {
+  width: 808px;
+  height: 454px;
+  position: absolute;
+  top: 454px;
+  left: 808px;
+}
+.event5box {
+  width: 223px;
+  height: 201px;
+  background: rgba(255, 144, 183, 1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 27px;
+}
+.event5-datetime {
+  width: 132px;
+  color: rgba(130, 130, 130, 1);
+  position: absolute;
+  top: 130px;
+  left: 21px;
+  font-weight: Regular;
+  font-size: 20px;
+  text-align: left;
+}
+.event5text {
+  width: 220px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 69px;
+  left: 21px;
+  font-weight: Medium;
+  font-size: 23px;
+  text-align: left;
+}
+.event5-rsvpbutton {
+  width: 80px;
+  height: 36px;
+  background: rgba(87, 38, 227, 1);
+  opacity: 1;
+  position: absolute;
+  top: 155px;
+  left: 136px;
+  border-radius: 27px;
+  overflow: hidden;
+}
+.event5-attendees {
+  width: 67px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 28px;
+  left: 21px;
+  font-weight: Regular;
+  font-size: 10px;
+  text-align: left;
+}
+.event5-rsvp {
+  width: 37px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 162px;
+  left: 158px;
+  font-weight: Regular;
+  font-size: 15px;
+  text-align: left;
+}
+.event6container {
+  width: 241px;
+  height: 201px;
+  position: absolute;
+  top: 454px;
+  left: 1126px;
+}
+.event6box {
+  width: 223px;
+  height: 201px;
+  background: rgba(107, 207, 250, 1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 27px;
+}
+.event6-datetime {
+  width: 132px;
+  color: rgba(130, 130, 130, 1);
+  position: absolute;
+  top: 130px;
+  left: 21px;
+  font-weight: Regular;
+  font-size: 20px;
+  text-align: left;
+}
+.event6text {
+  width: 220px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 69px;
+  left: 21px;
+  font-weight: Medium;
+  font-size: 23px;
+  text-align: left;
+}
+.event6-rsvpbutton {
+  width: 80px;
+  height: 36px;
+  background: rgba(87, 38, 227, 1);
+  opacity: 1;
+  position: absolute;
+  top: 155px;
+  left: 136px;
+  border-radius: 27px;
+  overflow: hidden;
+}
+.event6-attendees {
+  width: 67px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 28px;
+  left: 21px;
+  font-weight: Regular;
+  font-size: 10px;
+  text-align: left;
+}
+.event6-rsvp {
+  width: 37px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 162px;
+  left: 158px;
+  font-weight: Regular;
+  font-size: 15px;
+  text-align: left;
+}
+.calendarcontainer {
+  width: 280px;
+  height: 286px;
+  position: absolute;
+  opacity: 1;
+  top: 45px;
+  left: 183px;
+}
+.calendarcontainer img {
+  width: 100%;
+  height: auto;
+}
+.searchbarcontainer {
+  width: 360px;
+  height: 100px;
+  position: absolute;
+  opacity: 1;
+  top: 29px;
+  left: 944px;
+}
+.searchbarcontainer img {
+  width: 100%;
+  height: auto;
+}

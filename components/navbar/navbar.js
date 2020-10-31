@@ -258,7 +258,7 @@ body {
         </li>
         <div class="spacer-small"></div>
         <li>
-          <a href="#">
+          <a href="discover.html">
             <div class="container">
                 <span class="icon networkicon"><img src="images/calendar.png" alt="calendar"></i></span>
             </div>
