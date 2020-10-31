@@ -222,7 +222,7 @@ body {
 
     <div class="navigation">
       <ul>
-        <a href="#">
+        <a href="index.html">
           <div class="logocontainer">
               <span class="icon logoicon"><img src="images/logo.png" alt="logo"></i></span>
           </div>
